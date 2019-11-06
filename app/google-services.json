@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "709455024954",
+    "firebase_url": "https://fir-app-a54df.firebaseio.com",
+    "project_id": "fir-app-a54df",
+    "storage_bucket": "fir-app-a54df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709455024954:android:ba62bee7fb86f88805b603",
+        "android_client_info": {
+          "package_name": "com.battistradadeveloper.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709455024954-l16gd0jhv7qj2q04ip3efn8ec5vpl2pq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.battistradadeveloper.firebaseapp",
+            "certificate_hash": "cd45387363062016487e1434d324ee47070445ef"
+          }
+        },
+        {
+          "client_id": "709455024954-1jp8hkl6girdkcvgn4l4mpi8u8o2hdgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMTHIfGECCFTsT97Q8WN2AGAPW2PznCnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709455024954-1jp8hkl6girdkcvgn4l4mpi8u8o2hdgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

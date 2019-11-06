@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Industri Connect</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Intro Slider-->
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">Selamat Datang</string>
+    <string name="slide_1_desc">Halo, Apa Kabar Generasi Muda, Siap Menyonsong Hari Esok?</string>
+
+    <string name="slide_2_title">Networking Tanpa Batas</string>
+    <string name="slide_2_desc">Temukan Teman yang Nyaman Untuk Jejang Professional Anda</string>
+
+    <string name="slide_3_title">Job Fair</string>
+    <string name="slide_3_desc">Kerjaan Menarik Menantimu. Segera Pilih Perusahaan impianmu</string>
+
+    <string name="slide_4_title">Yuk Mulai Sekarang</string>
+    <string name="slide_4_desc">Dengan Industri Connect, hidup semakin mudah, yuk mulai sekarang</string>
+
+</resources>

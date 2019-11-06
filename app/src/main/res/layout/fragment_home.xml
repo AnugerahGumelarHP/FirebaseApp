@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/welcomeUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hi, Mr. User"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Industri Connect"
+                android:layout_marginEnd="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:id="@+id/img_mahasiswa"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mahasiswa"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="5dp"/>
+                <ImageView
+                    android:id="@+id/img_alumni"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/alumni"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/upn"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/fti"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

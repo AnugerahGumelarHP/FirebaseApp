@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorAccent"
+    android:padding="16dp"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/img_login"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/new_connect"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txt_splashscreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/txt_splashscreen_quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Being a family means you are a part of something wonderful.
+            It means you will love and be loved for the rest of your life"
+            android:textSize="12sp"
+            android:layout_above="@id/txt_splashscreen_quote_person"
+            />
+        <TextView
+            android:id="@+id/txt_splashscreen_quote_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="-Lisa Weed"
+            android:textSize="12sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+</LinearLayout>
